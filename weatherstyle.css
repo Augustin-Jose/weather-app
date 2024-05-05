@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+    padding: 0;
+    background: black;
+}
+
+.card {
+    background: linear-gradient(135deg, #2980b9, #6dd5fa);
+    width: 400px; /* Increased width for desktop */
+    margin: 50px auto;
+    border-radius: 20px; /* Increased border radius for desktop */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box shadow for desktop */
+    padding: 40px; /* Increased padding for desktop */
+    text-align: center;
+}
+
+.search {
+    margin-bottom: 40px; /* Increased margin for desktop */
+    position: relative;
+}
+
+.search input {
+    padding: 15px; /* Increased padding for desktop */
+    width: calc(100% - 60px); /* Increased width for desktop */
+    border-radius: 10px; /* Increased border radius for desktop */
+    border: 2px solid #ccc; /* Increased border width for desktop */
+    outline: none;
+    font-size: 16px; /* Increased font size for desktop */
+}
+
+.search button {
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px; /* Increased width for desktop */
+    height: 100%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button img {
+    width: 140%; /* Increased width for desktop */
+    height: 100%; /* Maintain aspect ratio */
+    border-radius: 50%;
+    position: relative;
+    bottom: 0; /* Removed bottom adjustment */
+    right: 0; /* Removed right adjustment */
+    border: 0pc solid #ccc; /* Increased border width for desktop */
+}
+
+.weather-icon {
+    width: 120px; /* Increased width for desktop */
+    margin: 0 auto;
+}
+
+.temperature {
+    font-size: 48px; /* Increased font size for desktop */
+    color: #fff;
+    margin: 20px 0; /* Increased margin for desktop */
+}
+
+.cityName {
+    margin-bottom: 30px; /* Increased margin for desktop */
+    color: #fff;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    color: #fff;
+}
+
+.details img {
+    width: 60px; /* Increased width for desktop */
+    margin-bottom: 20px; /* Increased margin for desktop */
+    color: #fff;
+}
+
+.details p {
+    margin: 0;
+}
+
+.details p.humidity {
+    font-weight: bold;
+    color: #fff;
+}
+
+.details p.wind {
+    font-weight: bold;
+    color: #2196F3;
+}
